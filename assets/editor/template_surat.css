@@ -1,0 +1,247 @@
+body {
+    background: rgb(204,204,204);
+    font-family: arial;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efefef+0,ffffff+17,efefef+32,ffffff+49,efefef+66,ffffff+83,efefef+100 */
+    
+    background: rgb(239,239,239); 
+    background: -moz-linear-gradient(-45deg, rgba(239,239,239,1) 0%, rgba(255,255,255,1) 17%, rgba(239,239,239,1) 32%, rgba(255,255,255,1) 49%, rgba(239,239,239,1) 66%, rgba(255,255,255,1) 83%, rgba(239,239,239,1) 100%); 
+    background: -webkit-linear-gradient(-45deg, rgba(239,239,239,1) 0%,rgba(255,255,255,1) 17%,rgba(239,239,239,1) 32%,rgba(255,255,255,1) 49%,rgba(239,239,239,1) 66%,rgba(255,255,255,1) 83%,rgba(239,239,239,1) 100%); 
+    background: linear-gradient(135deg, rgba(239,239,239,1) 0%,rgba(255,255,255,1) 17%,rgba(239,239,239,1) 32%,rgba(255,255,255,1) 49%,rgba(239,239,239,1) 66%,rgba(255,255,255,1) 83%,rgba(239,239,239,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#efefef',GradientType=1 );
+
+
+    }
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.1cm rgba(0,0,0,0.2);
+  padding: 0.5cm;
+}
+page[size="A4"] {  
+  width: 22cm;
+  height: 29.7cm; 
+  margin-top: 10px;
+  margin-bottom: 65px;
+}
+
+page[size="A4"][layout="portrait"] {
+  width: 29.7cm;
+  height: 21cm;
+    
+}
+page[size="A3"] {
+  width: 29.7cm;
+  height: 42cm;
+}
+page[size="A3"][layout="portrait"] {
+  width: 42cm;
+  height: 29.7cm;  
+}
+page[size="A5"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="portrait"] {
+  width: 21cm;
+  height: 14.8cm;  
+}
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+header{
+    height: 3cm;
+    vertical-align: middle;
+    line-height:0.5cm;
+    letter-spacing: 0.3px;
+}
+header .left{
+       text-align: center;
+       width: 5cm;
+       float: left;
+}
+header .right{ 
+    width: 16cm;
+       float: left;
+       text-align: justify;
+}
+header .title{
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+}
+hr{
+    color: #414141;
+    border: 1px solid #414141;
+    margin: 0px;
+}
+address{
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: normal;
+}
+.content{
+    margin-top: 15px;
+        font-size: 12px;
+}
+.content input[type="text"], .content input[type="date"], .content select{
+    border: 0px;
+    border-bottom: 1px dotted #BBBBBB;
+    height: 24px;
+}
+.yth{
+    border: 0px;
+    border-bottom: 1px dotted #BBBBBB;
+    width: 50%;
+    margin-top: 8px;
+}
+.t-ttd{
+    
+}
+.ttd{
+    height: 2cm;
+}
+.add_tembusan{
+    padding: 5px 8px ;
+    background-color: #359BD2;
+    border:0px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.tembusan{
+    width: 100%!important;
+    border: 0px;
+    border-bottom: 1px dotted #BBBBBB;
+}
+table{
+    font-size: 14px;
+}
+.t-ttd select{
+    width: 175px!important;
+}
+.btn-ttd-rem{
+    padding: 4px 8px;
+    background-color: #B80707;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    display: none;
+    cursor: pointer;
+}
+.navbar{
+    padding: 0rem 1rem!important;
+}
+.btn-action{
+    position: fixed;
+    bottom:25px;
+    right: 50px;
+}
+
+.card{
+    border-radius: 0px!important;
+    height: 100%;
+}
+.card-body{
+ background-color: rgba(255, 255, 255, 0.15);
+ margin-left: 15px;
+ border-radius: 5px;
+ margin-top: 10px;
+  color: #383838;
+}
+.card-body .card-text{
+    font-size: 13px;
+}
+.card-body label{
+    color: white;
+    font-size: 12px;
+
+}
+.c-h {
+    width: auto!important;
+    text-align: center;
+
+}
+.c-h .card-img-top{
+    width: 50%;
+   
+}
+.card-body input{
+    font-size: 12px;
+
+}
+.card-body select{
+    font-size: 12px;
+}
+.card-body .t-group{
+    font-size: 13px;
+    border-bottom: 1px dotted #F2F2F2;
+}
+.card-body .nb{
+    font-size: 12px;
+    margin-bottom: 15px!important;
+}
+.sidebar{
+    /*
+    background: #12c2e9;  
+    background: -webkit-linear-gradient(-60deg, #f64f59, #c471ed, #12c2e9);  
+    background: linear-gradient(-60deg, #f64f59, #c471ed, #12c2e9);
+    */
+        background: #FF512F ;  /* fallback for old browsers */ 
+        background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #DD2476, #FF512F) ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color:white;
+    padding-left: 15px!important;
+}
+.c_head td{
+    padding:4px 2px
+}
+
+.combo{
+    width: 100%!important;
+    margin-bottom: 10px;
+    margin-bottom:10px!important;
+}
+.catatan{
+    font-size: 13px;
+}
+._easyui_textbox_input1{
+    width: 100%!important;
+}
+.justify_fr {
+    text-align: center!important;
+    color: red;
+}
+
+.class1 tbody tr:nth-child(2n) {
+    background: #f9f9f9;
+}
+
+.class2 thead tr th, .class2 tbody tr td  {
+    border-style: dashed;
+}
+.draft_history{
+    font-size: 12px!important;
+    padding: 0px!important;
+    
+}
+.draft_history li{
+    padding: 8px 15px;
+    cursor: pointer!important;
+}
+.draft_history li:hover{
+    background-color: #F0F0F0;
+}
+.draft_history h6{
+    padding: 10px  5px 0px 10px;
+    color: white;
+    font-size: 13px;
+}
+
+
