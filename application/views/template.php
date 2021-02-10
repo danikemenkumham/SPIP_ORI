@@ -303,23 +303,8 @@
                   <?php }?>
                     
                 <?php }else{?>
-                         <?php if($this->session->userdata('role') == 1 || $this->session->userdata('role') == 2 || $this->session->userdata('role') == 3 || $this->session->userdata('role') == 6){?>
-                                
-                                <?php if($this->session->userdata('ver_tipe') != ''){?>
-                                          <li class="nav-item"> <a class="nav-link" href="<?php echo site_url('satker/wbk/satker/'.$this->session->userdata('tahun').'?satker='.$this->session->userdata('satker'))?>">LKE WBK/WBBM</a></li>
-                                <?php }else{?>
-                                         <li class="nav-item"> <a class="nav-link" href="<?php echo site_url('satker/wbk/satker/'.$this->session->userdata('tahun'))?>">LKE WBK/WBBM</a></li>
-                                <?php }?>
-                                
-                                 <?php if($this->session->userdata('ver_tipe') != ''){?>
-                                   <li class="nav-item"> <a class="nav-link" href="<?php echo site_url('satker/rkt/satker/'.$this->session->userdata('tahun').'?satker='.$this->session->userdata('satker'))?>">RKT</a></li>
-                                  <?php }else{?>
-                                   <li class="nav-item"> <a class="nav-link" href="<?php echo site_url('satker/rkt/area/'.$this->session->userdata('tahun'))?>">RKT</a></li>
-                                  <?php }?>
-                                
-                                
-                                
-                                
+                      <?php if($this->session->userdata('role') == 1 || $this->session->userdata('role') == 2 || $this->session->userdata('role') == 3 || $this->session->userdata('role') == 6){?>
+                          <li class="nav-item"> <a class="nav-link" href="<?php echo site_url('satker/wbk/satker/'.$this->session->userdata('tahun').'?satker='.$this->session->userdata('satker'))?>">LKE WBK/WBBM</a></li>
                       <?php }else{?>
                        <li class="nav-item"> <a class="nav-link" href="<?php echo site_url('satker/wbk/area/'.$this->session->userdata('tahun'))?>">LKE WBK/WBBM</a></li>
                       <?php }?>
